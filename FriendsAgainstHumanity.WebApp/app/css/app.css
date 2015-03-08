@@ -1,0 +1,69 @@
+﻿body {
+	background-color: #5a5a5a;
+}
+
+.navbar-wrapper {
+}
+
+.carousel-indicators li {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+	background-color: white;
+}
+
+.carousel-indicators .active {
+	background-color: black;
+}
+
+.content-wrapper {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.panel {
+	background-color: #5a5a5a;
+	box-shadow: none;
+}
+
+.panel-title {
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.panel-body {
+	color: lightgray;
+}
+
+.footer-wrapper {
+	padding: 20px 15px;
+	border-top: 1px solid white;
+}
+
+.links-wrapper {
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+}
+
+.links-wrapper li {
+	display: inline;
+	padding: 0px 2px;
+}
+
+.links-wrapper li:after {
+	content: ' . ';
+}
+
+.links-wrapper li:first-child {
+	padding-left: 0px;
+}
+
+.links-wrapper li:last-child:after {
+	content: none;
+}
+
+.create-game-wrapper, .find-game-wrapper {
+	padding: 10px 20px;
+	background-color: lightgray;
+}
